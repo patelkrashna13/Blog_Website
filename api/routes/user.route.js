@@ -10,3 +10,4 @@ router.post('/signout',signout)
 router.get('/getusers',verifyToken,getusers)
 router.get('/:userId',getUser)
 module.exports=router;
+

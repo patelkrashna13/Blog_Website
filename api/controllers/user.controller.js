@@ -8,7 +8,7 @@ exports.updateUser=async(req,res,next)=>
     {
         return next(errorHandler(403,'You are not allow to update this user'));
     }
-
+    
     if(req.body.password)
     {
      if(req.body.password.length<6)
