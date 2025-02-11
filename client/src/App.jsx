@@ -16,7 +16,8 @@ import PostPage from './pages/PostPage'
 const App = () => {
   return (
     <BrowserRouter>
-    <Header></Header>
+    {/* //hello */}
+      <Header></Header>
       <Routes>
       <Route path="/" element={<Home/>}></Route>
       <Route path="/about" element={<About/>}></Route>
