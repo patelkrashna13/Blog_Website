@@ -6,7 +6,7 @@ const postSchema = new mongoose.Schema(
             type:String,
             require:true,
         },
-        
+        //post model is updated
         content:{
             type:String,
             required:true,
